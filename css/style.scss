@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+h2 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 2rem;
+}
+
+.pageheader {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+.slider {
+  display: flex;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 14px 10px 50px lightblue;
+}
+
+.slide {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-size: 18px;
+  z-index: 99;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+  background-image: url(../assets/left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+  background-image: url(../assets/right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-play {
+  right: 50%;
+  left: 50%;
+  bottom: 5%;
+  background-image: url(../assets/play-buttton.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+}
+
+.btn-pause {
+  background-image: url(../assets/pause.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+}
+
+.slider-content {
+  display: flex;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.8rem;
+}
+
+.pagefooter {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}

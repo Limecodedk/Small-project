@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "img": "../assets/aurora.jpg",
+      "text": "<h2>Aurora</h2>",
+      "content": "Southern lights and northern lights can be seen when the solar wind is stronger than normal with large electrical discharges that hurl electrically charged particles towards the earth. The common term for southern lights and northern lights is aurora borealis. The particles are deflected by the earth's magnetic field and spiral back and forth between the earth's magnetic south and north poles.",
+      "bgcolor": "linear-gradient(to right, rgba(0, 112, 205, 1), rgba(33, 247, 177, 1), rgba(66, 106, 140, 1))"
+    },
+    {
+      "img": "../assets/orion-nebula.jpg",
+      "text": "<h2>Orion-nebula</h2>",
+      "content": "The Orion Nebula is a cloud of gas and dust in space. In this nebula, new stars are born. The Orion Nebula is found in the middle of the constellation Orion, as the middle star in the sword under Orion's Belt. The distance to the Orion Nebula is approx. 450 parsecs = approx. 1,470 light years.",
+      "bgcolor": "linear-gradient(to right, rgba(25, 14, 18, 1), rgba(255, 140, 249, 1), rgba(1, 1, 6, 1))"
+    },
+    {
+      "img": "../assets/forest.jpg",
+      "text": "<h2>Forest</h2>",
+      "content": "Morbi consequat nulla eget finibus tincidunt. Curabitur pretium porttitor luctus. Nam tempus tristique euismod. Vestibulum tristique neque id feugiat faucibus. Curabitur imperdiet tellus quis metus luctus, at lacinia nibh vehicula. Morbi aliquet neque at lacus dapibus, quis ultrices tellus ultrices. Praesent a bibendum est. Donec sed euismod sapien. Curabitur efficitur in diam.",
+      "bgcolor": "linear-gradient(to right, rgba(74, 11, 30, 1), rgba(77, 84, 158, 1), rgba(101, 93, 227, 1))"
+    }
+  ]
+}
